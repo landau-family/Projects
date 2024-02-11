@@ -1,0 +1,32 @@
+C:\Users\landa\Documents\לימודים\c#\MemoryGame\MemoryGame\obj\Debug\MemoryGame.csproj.AssemblyReference.cache
+C:\Users\landa\Documents\לימודים\c#\MemoryGame\MemoryGame\obj\Debug\MemoryGame.csproj.SuggestedBindingRedirects.cache
+C:\Users\landa\Documents\לימודים\c#\MemoryGame\MemoryGame\obj\Debug\MemoryGame.csproj.CoreCompileInputs.cache
+C:\Users\landa\Documents\לימודים\c#\MemoryGame\MemoryGame\bin\Debug\MemoryGame.exe.config
+C:\Users\landa\Documents\לימודים\c#\MemoryGame\MemoryGame\bin\Debug\MemoryGame.exe
+C:\Users\landa\Documents\לימודים\c#\MemoryGame\MemoryGame\bin\Debug\MemoryGame.pdb
+C:\Users\landa\Documents\לימודים\c#\MemoryGame\MemoryGame\obj\Debug\MemoryGame.exe
+C:\Users\landa\Documents\לימודים\c#\MemoryGame\MemoryGame\obj\Debug\MemoryGame.pdb
+D:\OOP\MemoryGame\MemoryGame\bin\Debug\MemoryGame.exe.config
+D:\OOP\MemoryGame\MemoryGame\bin\Debug\MemoryGame.exe
+D:\OOP\MemoryGame\MemoryGame\bin\Debug\MemoryGame.pdb
+D:\OOP\MemoryGame\MemoryGame\obj\Debug\MemoryGame.csproj.AssemblyReference.cache
+D:\OOP\MemoryGame\MemoryGame\obj\Debug\MemoryGame.csproj.SuggestedBindingRedirects.cache
+D:\OOP\MemoryGame\MemoryGame\obj\Debug\MemoryGame.csproj.CoreCompileInputs.cache
+D:\OOP\MemoryGame\MemoryGame\obj\Debug\MemoryGame.exe
+D:\OOP\MemoryGame\MemoryGame\obj\Debug\MemoryGame.pdb
+E:\OOP\MemoryGame\MemoryGame\bin\Debug\MemoryGame.exe.config
+E:\OOP\MemoryGame\MemoryGame\bin\Debug\MemoryGame.exe
+E:\OOP\MemoryGame\MemoryGame\bin\Debug\MemoryGame.pdb
+E:\OOP\MemoryGame\MemoryGame\obj\Debug\MemoryGame.csproj.CoreCompileInputs.cache
+E:\OOP\MemoryGame\MemoryGame\obj\Debug\MemoryGame.exe
+E:\OOP\MemoryGame\MemoryGame\obj\Debug\MemoryGame.pdb
+E:\OOP\MemoryGame\MemoryGame\obj\Debug\MemoryGame.csproj.AssemblyReference.cache
+E:\OOP\MemoryGame\MemoryGame\obj\Debug\MemoryGame.csproj.SuggestedBindingRedirects.cache
+D:\לימודים\תכנות\תכנות יג\OOP\MemoryGame\MemoryGame\bin\Debug\MemoryGame.exe.config
+D:\לימודים\תכנות\תכנות יג\OOP\MemoryGame\MemoryGame\bin\Debug\MemoryGame.exe
+D:\לימודים\תכנות\תכנות יג\OOP\MemoryGame\MemoryGame\bin\Debug\MemoryGame.pdb
+D:\לימודים\תכנות\תכנות יג\OOP\MemoryGame\MemoryGame\obj\Debug\MemoryGame.csproj.AssemblyReference.cache
+D:\לימודים\תכנות\תכנות יג\OOP\MemoryGame\MemoryGame\obj\Debug\MemoryGame.csproj.SuggestedBindingRedirects.cache
+D:\לימודים\תכנות\תכנות יג\OOP\MemoryGame\MemoryGame\obj\Debug\MemoryGame.csproj.CoreCompileInputs.cache
+D:\לימודים\תכנות\תכנות יג\OOP\MemoryGame\MemoryGame\obj\Debug\MemoryGame.exe
+D:\לימודים\תכנות\תכנות יג\OOP\MemoryGame\MemoryGame\obj\Debug\MemoryGame.pdb

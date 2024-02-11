@@ -1,0 +1,54 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>PickAJob - Login</title>
+      <!-- Link to your CSS file -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+
+      <link rel="stylesheet" href="./style_login.css">
+    </head>
+    <body>
+      <nav class="navbar">
+        <a href="../home.html"><i class="fas fa-home"></i></a>
+        <a href="../login/login.html">Login</a>
+        <a href="../register/register.html">Register</a>
+        <a href="../view/view.html">View Job Postings</a>
+     </nav>
+     
+     <div class="banner">
+      <img id="bannerImage" src="" alt="Banner">
+   </div>
+   <div class="con">
+      <div class="container">
+        <h1>Login to PickAJob</h1>
+        <form id="loginForm">
+          <label for="username">Email:</label>
+          <input type="text" id="username" name="username" required>
+          
+          <label for="password">ID:</label>
+          <input type="password" id="password" name="password" required>
+    
+          <div class="role-selection">
+            <input type="radio" id="employeeRole" name="role" value="employee" checked>
+            <label for="employeeRole">Employee</label>
+            <input type="radio" id="employerRole" name="role" value="employer">
+            <label for="employerRole">Employer</label>
+          </div>
+    
+          <button type="submit">Login</button>
+        </form>
+        <p>Don't have an account? <a href="registration.html" id="a">Register here</a>.</p>
+      </div>
+    </div>
+      
+      <!-- Link to jQuery -->
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+      <!-- Link to your JavaScript file -->
+      <script src="../../helpFunctions/generalFunctions.js"></script>
+      <script src="../../helpFunctions/settings.js"></script>
+      <script src="./login.js"></script>
+    </body>
+    </html>
+    

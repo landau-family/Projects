@@ -1,0 +1,204 @@
+﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="2293c8af-6c66-442a-8efa-1d2b0967c70b" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>DWHCARSgilly</ID>
+  <Name>DWHCARSgilly</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CurrentLayout</Name>
+      <Value>_ALL_TABLES_</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:SchemaRestriction</Name>
+      <Value></Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:RetrieveRelationships</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:Layouts</Name>
+      <Value>
+        <Layouts xmlns="">
+          <Diagram>
+            <Name>_ALL_TABLES_</Name>
+            <DiagramLayout />
+            <ShowRelationshipNames>False</ShowRelationshipNames>
+            <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
+            <DiagramViewPortLeft>0</DiagramViewPortLeft>
+            <DiagramViewPortTop>0</DiagramViewPortTop>
+            <DiagramBoundingLeft>0</DiagramBoundingLeft>
+            <DiagramBoundingTop>0</DiagramBoundingTop>
+            <DiagramZoom>100</DiagramZoom>
+          </Diagram>
+        </Layouts>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <DataSourceID>DWHCARSgilly</DataSourceID>
+  <Schema>
+    <xs:schema id="DWHCARSgilly" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+      <xs:element name="DWHCARSgilly" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="58c8939b-deb8-4521-8eed-84ebea52b844">
+        <xs:complexType>
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="dbo_Dim_Cars" msprop:design-time-name="b626b09b-0a66-4dae-bc6e-3bf9c372b3d9" msprop:DbTableName="Dim_Cars" msprop:FriendlyName="Dim_Cars" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="CarId" msprop:design-time-name="96171848-2a9f-43db-b6ea-9664f56fd95b" msprop:DbColumnName="CarId" msprop:FriendlyName="CarId">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="ProducerId" msprop:design-time-name="e93e8f75-00ca-478d-91d7-d2293f9c7b9e" msprop:DbColumnName="ProducerId" msprop:FriendlyName="ProducerId" type="xs:int" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_Dim_Customers" msprop:design-time-name="5f1652cc-d3a2-4f73-97e8-eccf19e078e0" msprop:DbTableName="Dim_Customers" msprop:FriendlyName="Dim_Customers" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="CustomerId" msprop:design-time-name="dbdd7099-a873-4c29-a77c-175388e8af6d" msprop:DbColumnName="CustomerId" msprop:FriendlyName="CustomerId">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="CustomerName" msprop:design-time-name="ded4c157-24da-4437-9aa6-91873814ad93" msprop:DbColumnName="CustomerName" msprop:FriendlyName="CustomerName" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="CustomerPhone" msprop:design-time-name="a3a10c3f-b238-4076-9166-5ccbafb81026" msprop:DbColumnName="CustomerPhone" msprop:FriendlyName="CustomerPhone" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_Dim_Company" msprop:design-time-name="8c7a42d4-f6ab-4a86-b67c-9c23aab020aa" msprop:DbTableName="Dim_Company" msprop:FriendlyName="Dim_Company" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="CompanyId" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="a0f9d43a-4b50-4f47-851a-af178b2fd407" msprop:DbColumnName="CompanyId" msprop:FriendlyName="CompanyId" type="xs:int" />
+                  <xs:element name="CompanyName" msprop:design-time-name="2d2969c3-c619-48e4-a4ca-1584f1b98b30" msprop:DbColumnName="CompanyName" msprop:FriendlyName="CompanyName" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_Dim_Date" msprop:design-time-name="dbd65eff-63d5-4929-a04c-109b1012f893" msprop:DbTableName="Dim_Date" msprop:FriendlyName="Dim_Date" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="Year" msprop:design-time-name="641e2b57-adab-4461-929e-bf55510bb1b4" msprop:DbColumnName="Year" msprop:FriendlyName="Year" type="xs:int" />
+                  <xs:element name="Month" msprop:design-time-name="3f776763-2d18-496c-829f-2f53a85f5527" msprop:DbColumnName="Month" msprop:FriendlyName="Month" type="xs:int" />
+                  <xs:element name="Day" msprop:design-time-name="06a68ed3-c302-49e1-8a7e-dba5551222ad" msprop:DbColumnName="Day" msprop:FriendlyName="Day" type="xs:int" />
+                  <xs:element name="Date" msprop:design-time-name="2cdf38fb-47da-4458-9438-4f3004037e9b" msprop:DbColumnName="Date" msprop:FriendlyName="Date" type="xs:dateTime" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_Fact_Rents_New" msprop:design-time-name="d30e2695-6d8e-4493-8c16-9bfa19260913" msprop:DbTableName="Fact_Rents_New" msprop:FriendlyName="Fact_Rents_New" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="RentId" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="c8266b07-6dde-42f6-8cfb-97346fcae2bb" msprop:DbColumnName="RentId" msprop:FriendlyName="RentId" type="xs:int" />
+                  <xs:element name="CompanyId" msprop:design-time-name="eb143df2-e964-4599-bfa7-81bdeeb65ab7" msprop:DbColumnName="CompanyId" msprop:FriendlyName="CompanyId" type="xs:int" />
+                  <xs:element name="CarId" msprop:design-time-name="02f10def-652e-453d-8de0-c8430ac357f9" msprop:DbColumnName="CarId" msprop:FriendlyName="CarId">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="CustomerId" msprop:design-time-name="7b22866d-5d8c-4579-8b0d-42baaa2ae4af" msprop:DbColumnName="CustomerId" msprop:FriendlyName="CustomerId">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="RentDate" msprop:design-time-name="3aa18cbe-d253-49c8-890b-20ea982a6430" msprop:DbColumnName="RentDate" msprop:FriendlyName="RentDate" type="xs:dateTime" minOccurs="0" />
+                  <xs:element name="NumDays" msprop:design-time-name="f05cfeeb-9151-4496-8d9d-199f041836a9" msprop:DbColumnName="NumDays" msprop:FriendlyName="NumDays" type="xs:int" minOccurs="0" />
+                  <xs:element name="ikm" msprop:design-time-name="52e0ece5-d73a-4e1b-814b-da0233d6011a" msprop:DbColumnName="ikm" msprop:FriendlyName="ikm" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="icost" msprop:design-time-name="a069f161-0c6c-495f-94f9-769ca3c40851" msprop:DbColumnName="icost" msprop:FriendlyName="icost" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="producer" msprop:design-time-name="714693c7-e18a-41d5-80a0-0086e25a7aa9" msprop:DbColumnName="producer" msprop:FriendlyName="producer" type="xs:int" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_Dim_Producer" msprop:design-time-name="dda54715-6ba8-46ec-a895-3af1a9254da9" msprop:DbTableName="Dim_Producer" msprop:FriendlyName="Dim_Producer" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="ProducerId" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="c4eb7320-86c5-4dfe-ab5d-10c1e5586c2d" msprop:DbColumnName="ProducerId" msprop:FriendlyName="ProducerId" type="xs:int" />
+                  <xs:element name="ProducerName" msprop:design-time-name="1875db87-d8dc-4850-9ae4-da8ecf9b4e70" msprop:DbColumnName="ProducerName" msprop:FriendlyName="ProducerName">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:choice>
+        </xs:complexType>
+        <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_Dim_Cars" />
+          <xs:field xpath="CarId" />
+        </xs:unique>
+        <xs:unique name="dbo_Dim_Customers_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_Dim_Customers" />
+          <xs:field xpath="CustomerId" />
+        </xs:unique>
+        <xs:unique name="dbo_Dim_Company_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_Dim_Company" />
+          <xs:field xpath="CompanyId" />
+        </xs:unique>
+        <xs:unique name="dbo_Dim_Date_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_Dim_Date" />
+          <xs:field xpath="Date" />
+        </xs:unique>
+        <xs:unique name="dbo_Fact_Rents_New_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_Fact_Rents_New" />
+          <xs:field xpath="RentId" />
+        </xs:unique>
+        <xs:unique name="dbo_Dim_Producer_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_Dim_Producer" />
+          <xs:field xpath="ProducerId" />
+        </xs:unique>
+        <xs:keyref name="FK_Fact_Rents_New_Dim_Company" refer="dbo_Dim_Company_Constraint1">
+          <xs:selector xpath=".//dbo_Fact_Rents_New" />
+          <xs:field xpath="CompanyId" />
+        </xs:keyref>
+        <xs:keyref name="FK_Fact_Rents_New_Dim_Cars" refer="Constraint1">
+          <xs:selector xpath=".//dbo_Fact_Rents_New" />
+          <xs:field xpath="CarId" />
+        </xs:keyref>
+        <xs:keyref name="FK_Fact_Rents_New_Dim_Customers" refer="dbo_Dim_Customers_Constraint1">
+          <xs:selector xpath=".//dbo_Fact_Rents_New" />
+          <xs:field xpath="CustomerId" />
+        </xs:keyref>
+        <xs:keyref name="FK_Fact_Rents_New_Dim_Producer" refer="dbo_Dim_Producer_Constraint1">
+          <xs:selector xpath=".//dbo_Fact_Rents_New" />
+          <xs:field xpath="producer" />
+        </xs:keyref>
+        <xs:keyref name="FK_Fact_Rents_New_Dim_Date" refer="dbo_Dim_Date_Constraint1">
+          <xs:selector xpath=".//dbo_Fact_Rents_New" />
+          <xs:field xpath="RentDate" />
+        </xs:keyref>
+      </xs:element>
+    </xs:schema>
+    <DWHCARSgilly xmlns="" />
+  </Schema>
+</DataSourceView>

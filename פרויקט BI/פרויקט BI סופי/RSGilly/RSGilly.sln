@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1340
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "RSGilly", "RSGilly\RSGilly.rptproj", "{17398316-F9E5-4764-8A56-27C8C89989EA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		DebugLocal|Default = DebugLocal|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{17398316-F9E5-4764-8A56-27C8C89989EA}.Debug|Default.ActiveCfg = Debug
+		{17398316-F9E5-4764-8A56-27C8C89989EA}.Debug|Default.Build.0 = Debug
+		{17398316-F9E5-4764-8A56-27C8C89989EA}.Debug|Default.Deploy.0 = Debug
+		{17398316-F9E5-4764-8A56-27C8C89989EA}.DebugLocal|Default.ActiveCfg = DebugLocal
+		{17398316-F9E5-4764-8A56-27C8C89989EA}.DebugLocal|Default.Build.0 = DebugLocal
+		{17398316-F9E5-4764-8A56-27C8C89989EA}.Release|Default.ActiveCfg = Release
+		{17398316-F9E5-4764-8A56-27C8C89989EA}.Release|Default.Build.0 = Release
+		{17398316-F9E5-4764-8A56-27C8C89989EA}.Release|Default.Deploy.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0FD83286-A3CB-4215-93FD-DB7AF70E8E3B}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Home Page</title>
+   <link rel="stylesheet" href="home.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+
+</head>
+<body>
+  <button class="top-right-button"><a href="../../homepage/home.html">Exit</a></button>
+
+
+    <nav class="navbar">
+        <a href="../home/home.html"><i class="fas fa-home"></i></a>
+        <a href="../update/home.html">update</a>
+        <a href="../view/view.html">View Job Postings</a>
+        <a href="../add/home.html">Add Job Post</i></a>
+  
+     </nav>
+     
+   
+   <div class="banner">
+    <img id="bannerImage" src="" alt="Banner">
+ </div>
+   
+      <!-- Create Job Posting Section -->
+      <div id="createJobPostingSection" >
+        <h2>Create Job Posting</h2>
+        <form id="createJobPostingForm">
+          <div class="input-container">
+            <label for="areaDropdown">Area:</label>
+            <select id="areaDropdown" name="area" required>
+              <!-- Options will be populated dynamically using JavaScript -->
+            </select>
+          </div>
+          <div class="input-container">
+            <label for="professionDropdown">Profession:</label>
+            <select id="professionDropdown" name="profession" required>
+              <!-- Options will be populated dynamically using JavaScript -->
+            </select>
+          </div>
+          <div class="input-container">
+            <label for="descriptionInput">Description:</label>
+            <input type="text" id="descriptionInput" name="description" required>
+          </div>
+          <button type="submit" id="finishCreateBtn" class="action-button">Finish</button>
+          <button id="cancelCreateJobPostingBtn">Cancel</button>
+        </form>
+      </div>
+  <!-- Link to jQuery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <!-- Link to your JavaScript file -->
+  <script src="../../helpFunctions/generalFunctions.js"></script>
+<script src="../../helpFunctions/settings.js"></script>
+   <script src="home.js"></script>
+</body>
+</html>

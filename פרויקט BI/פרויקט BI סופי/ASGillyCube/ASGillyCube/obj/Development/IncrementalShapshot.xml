@@ -1,0 +1,89 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>ASGillyCube</Database>
+    <Server>seminar-sql</Server>
+    <ConnectionString>Data Source=seminar-sql;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>Ndl7dk1eTKNOEPDw0DAxAdSY/yM=01/02/2024 12:03:0501/02/2024 12:03:05</TimeStamp>
+        <ID>
+          <String>DWHCARSgilly</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>pmTe4SU3PCO9VPEkoy1v4YatLOQ=01/02/2024 12:05:0901/02/2024 12:05:08</TimeStamp>
+        <ID>
+          <String>DWHCARSgilly</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>XUO6xAOzuGagQvj9jPs5CvdzLUg=01/02/2024 12:07:0101/02/2024 12:07:01</TimeStamp>
+        <ID>
+          <String>Dim Cars</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>jk/GVS1mYOIkVFKq/WQwx7LVOg4=01/02/2024 12:07:4901/02/2024 12:07:49</TimeStamp>
+        <ID>
+          <String>Dim Producer</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>nAg8j+FDHLuvf+jDRmwy98WBq8E=01/02/2024 12:09:5601/02/2024 12:08:18</TimeStamp>
+        <ID>
+          <String>Dim Date</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>q/5E6HZcDLF2bqVftuEzPxjzoO4=01/02/2024 12:10:1901/02/2024 12:10:19</TimeStamp>
+        <ID>
+          <String>Dim Company</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>hC2h6eY+lPEwpHAIjV5GHHR8Z54=01/02/2024 12:10:4501/02/2024 12:10:45</TimeStamp>
+        <ID>
+          <String>Dim Customers</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>t7CKT3kD098HR0dmdpYE71IISNc=01/02/2024 12:12:0401/02/2024 12:12:03n6+7t+zoDIGVlDmv9cYzCRfVS3I=01/02/2024 12:12:0401/02/2024 12:12:03</TimeStamp>
+        <ID>
+          <String>DWHCARSgillyCube</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>om/iKlck5nUfZdRNLtx6slMx61o=01/02/2024 12:02:2001/02/2024 12:02:20</TimeStamp>
+      <ID>
+        <String>ASGillyCube</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2024-02-01T10:12:14.883333Z</LastDeployed>
+</DeploymentSnapshot>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Home Page</title>
+   <link rel="stylesheet" href="home.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+
+</head>
+<body>
+   <button class="top-right-button"><a href="../../homepage/home.html">Exit</a></button>
+
+
+   <nav class="navbar">
+      <a href="../home/home.html"><i class="fas fa-home"></i></a>
+      <a href="../update/home.html">update</a>
+      <a href="../view/view.html">View Job Postings</a>
+      <a href="../add/home.html">Add Job Post</i></a>
+   </nav>
+   
+   <div class="banner">
+    <img id="bannerImage" src="" alt="Banner">
+ </div>
+   
+   <div class="about">
+      <!-- Employer Personal Details -->
+      <h1>Welcome, <span id="employerName"></span>!</h1>
+      <div id="employerDetails">
+        <p><strong>ID Card:</strong> <span id="employerIDCard"></span></p>
+        <p><strong>Email:</strong> <span id="employerEmail"></span></p>
+        <p><strong>Name:</strong> <span id="employerFullName"></span></p>
+        <p><strong>Residential Area:</strong> <span id="employerResidentialArea"></span></p>
+      </div>
+  <!-- Link to jQuery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <!-- Link to your JavaScript file -->
+  <script src="../../helpFunctions/generalFunctions.js"></script>
+<script src="../../helpFunctions/settings.js"></script>
+   <script src="home.js"></script>
+</body>
+</html>

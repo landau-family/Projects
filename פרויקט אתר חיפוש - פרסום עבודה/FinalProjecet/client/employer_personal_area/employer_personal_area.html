@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Employer Personal Area</title>
+  <!-- Link to your CSS file -->
+  <link rel="stylesheet" href="./employer_personal_area.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Employer Personal Details -->
+    <h1>Welcome, <span id="employerName"></span>!</h1>
+    <div id="employerDetails">
+      <p><strong>ID Card:</strong> <span id="employerIDCard"></span></p>
+      <p><strong>Email:</strong> <span id="employerEmail"></span></p>
+      <p><strong>Name:</strong> <span id="employerFullName"></span></p>
+      <p><strong>Residential Area:</strong> <span id="employerResidentialArea"></span></p>
+    </div>
+    
+    <!-- Job Postings -->
+    <h2>Your Job Postings</h2>
+    <div id="employerJobPostings">
+      <!-- Display job postings here -->
+    </div>
+    
+    <!-- Update Personal Details Section -->
+    <div id="updateDetailsSection">
+      <h2>Update Personal Details</h2>
+      <form id="updateDetailsForm">
+        <!-- Input fields for updating personal details -->
+        <label for="employerName2">Name:</label>
+        <input type="text" id="employerName2" name="employerName" disabled>
+        <label for="employerEmail2">Email:</label>
+        <input type="email" id="employerEmail2" name="employerEmail" disabled>
+       
+        <!-- Add more input fields for other personal details -->
+        <label for="residentialArea2">Residential Area:</label>
+        <select id="residentialArea2" name="residentialArea" required disabled>
+          <!-- Options will be populated dynamically using JavaScript -->
+        </select>
+        <!-- Update and Finish Update buttons -->
+        <button type="button" id="updateBtn">Update Personal Details</button>
+        <button type="submit" id="finishUpdateBtn" style="display: none;">Finish Update</button>
+      </form>
+    </div>
+     <!-- Create and Update Job Posting Buttons -->
+     <div class="jobPostingButtons">
+      <button id="createJobPostingBtn">Create Job Posting</button>
+     
+    </div>
+        <!-- Create Job Posting Section -->
+    <div id="createJobPostingSection" style="display: none;">
+      <h2>Create Job Posting</h2>
+      <form id="createJobPostingForm">
+        <div class="input-container">
+          <label for="areaDropdown">Area:</label>
+          <select id="areaDropdown" name="area" required>
+            <!-- Options will be populated dynamically using JavaScript -->
+          </select>
+        </div>
+        <div class="input-container">
+          <label for="professionDropdown">Profession:</label>
+          <select id="professionDropdown" name="profession" required>
+            <!-- Options will be populated dynamically using JavaScript -->
+          </select>
+        </div>
+        <div class="input-container">
+          <label for="descriptionInput">Description:</label>
+          <input type="text" id="descriptionInput" name="description" required>
+        </div>
+        <button type="submit" id="finishCreateBtn" class="action-button">Finish</button>
+        <button id="cancelCreateJobPostingBtn">Cancel</button>
+      </form>
+    </div>
+  </div>
+  
+  <!-- Link to jQuery -->
+  <script  src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <!-- Link to your JavaScript file -->
+  <script src="../helpFunctions/generalFunctions.js"></script>
+  <script src="../helpFunctions/settings.js"></script>
+  <script src="./employer_personal_area.js"></script>
+</body>
+</html>

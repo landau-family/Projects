@@ -1,0 +1,230 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: flex-start; /* Align items to the left */
+    background-color:brown; /* Green color */
+  }
+  
+  
+  .navbar a {
+    padding: 14px 16px;
+    text-decoration: none;
+    color: white; /* Add your desired text color */
+  }
+  
+  .navbar a:hover {
+    background-color:crimson; /* Add your desired hover color */
+    color: black; /* Add your desired hover text color */
+  }
+
+.navbar img {
+    height: 20px;
+}
+
+.banner img {
+    width: 100%;
+    height: 50vh;
+}
+
+.about {
+    text-align: center;
+    padding: 20px;
+}
+
+.about h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.about p {
+    font-size: 1.2em;
+}
+.unexpand{
+  
+    width:75%;
+    padding-right:25%;
+    margin-left: 300px;
+    transition: margin-left 0.3s ease;
+    transition: all 0.3s; /* Add transition for smooth effect */
+  }
+  button {
+    display: inline;
+    
+    padding: 10px;
+    background-color:brown;;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: crimson;
+  }
+  /* Job Postings Styles */
+  #jobPostings {
+    text-align: center;
+    display: grid;
+    grid-template-areas:'j j j'
+                        'j j j'
+                        'j j j';
+    gap: 20px;
+    
+  }
+  
+  .jobPosting {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    grid-area: 'j';
+  }
+  
+  .jobPosting:hover {
+    /* background-color: #f2f2f2; */
+    border-color: crimson;
+    border: 5px solid crimson;
+  }
+  
+  .jobPosting h3 {
+    margin: 0;
+    color: #007BFF;
+  }
+  
+  .jobPosting p {
+    margin: 5px 0;
+  }
+/* Filter Area Styles */
+#filterSection {
+  width:100%;
+  margin-top: 20px;
+  padding: 15px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  /* display: none; */
+}
+#filterSection h2 {
+  font-size: 18px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+#areaFilter,
+#professionFilter,
+#dateFilter {
+  width: calc(33.33% - 10px);
+  margin-bottom: 15px;
+  width:100%;
+}
+
+#areaFilter h3,
+#professionFilter h3,
+#dateFilter h3 {
+  font-size: 16px;
+  margin-bottom: 5px;
+  
+}
+
+#filterDate {
+  width: 75%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+#applyFilterBtn {
+  padding: 5px 10px;
+  /* background-color: #007bff; */
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+  /* Add more custom styles as needed */
+
+  /* CSS for the sidebar and content */
+.sidebar {
+  width: 250px;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: -250px;
+  background-color: rgba(255, 255, 255, 0.9);
+  transition: left 0.3s ease;
+
+  /* ... your existing styles ... */
+   max-height: 100vh;/* Set the maximum height for the sidebar */
+   overflow-y: auto; /*Enable vertical scrolling */
+}
+
+.sidebar-open {
+  left: 0;
+}
+
+
+
+.sidebar #hamburgerIcon {
+  cursor: pointer;
+  padding: 15px;
+  font-size: 20px;
+}
+
+/* ... rest of your CSS ... */
+
+.sidebar #hamburgerIcon {
+  cursor: pointer;
+  padding: 15px;
+  font-size: 20px;
+  color: #333; /* Change the color to your preference */
+}
+
+/* Hamburger icon animation when sidebar is open */
+.hamburger.opened {
+  transform: rotate(90deg);
+  transition: transform 0.3s ease;
+}
+.sidebar-content {
+  /* font-size: small; */
+  width: 100%; /* Span the text across the entire width */
+  padding: 0; /* Remove padding that might constrain the width */
+}
+   
+/* Hamburger Menu Styles */
+.hamburger {
+    /* position: fixed;
+    top: 20px;
+    left: 20px; */
+    cursor: pointer;
+    z-index: 100;
+  }
+  
+  .bar {
+    width: 30px;
+    height: 3px;
+    background-color:white;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+  
+  .change .bar:nth-child(1) {
+    transform: rotate(-45deg) translate(-5px, 6px);
+    background-color:black;
+  }
+  
+  .change .bar:nth-child(2) {
+    opacity: 0;
+
+  }
+  
+  .change .bar:nth-child(3) {
+    transform: rotate(45deg) translate(-5px, -6px);
+    background-color:black;
+
+  }

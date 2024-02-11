@@ -1,0 +1,36 @@
+--top 5 cars(were rented for the highest sum of renting price)
+select topcount([Dim Cars].[Car Id].members,5,[Measures].[Icost]) on rows,
+[Measures].[Icost] on columns
+from [DWHCARSgillyCube];
+
+--customer who rented for more than 40000 NIS
+select 
+filter([Dim Customers].[Customer Name].[Customer Name],[Measures].[Icost]>4000) on rows,
+[Measures].[Icost] on columns
+from [DWHCARSgillyCube];
+
+--3 cars which have driven for over 3000km
+select 
+topsum([Dim Cars].[Car Id].[Car Id].members,3,[Measures].[Ikm]>3000) on rows,
+[Measures].[Ikm] on columns
+from [DWHCARSgillyCube];
+
+--order the customer rents by desc order
+select order([Dim Customers].[Customer Name].[Customer Name].members,[Measures].[Icost],desc) on rows,
+[Dim Cars].[Car Id].[Car Id].members on columns
+from [DWHCARSgillyCube]
+where [Measures].[Icost];
+
+--numdays for 2 last car companies
+select tail([Dim Company].[Company Name].members,2)  on rows,
+[Dim Cars].[Car Id].[Car Id] on columns
+from [DWHCARSgillyCube]
+where [Measures].[Num Days];
+
+
+
+--cost for cars rented before 2020
+select 
+filter([Dim Cars].[Car Id].[Car Id].members,[Dim Date].[Year]<2020) on rows,
+[Measures].[Icost] on columns
+from [DWHCARSgillyCube];

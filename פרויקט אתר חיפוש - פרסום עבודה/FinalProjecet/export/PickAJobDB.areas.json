@@ -1,0 +1,30 @@
+[{
+  "_id": {
+    "$oid": "64c0116cf115ad1fb4650984"
+  },
+  "name": "Bnei Brak"
+},
+{
+  "_id": {
+    "$oid": "64c0116cf115ad1fb4650985"
+  },
+  "name": "Kiryat Sefer"
+},
+{
+  "_id": {
+    "$oid": "64c0116cf115ad1fb4650986"
+  },
+  "name": "Jerusalem"
+},
+{
+  "_id": {
+    "$oid": "64c0116cf115ad1fb4650987"
+  },
+  "name": "Ashkelon"
+},
+{
+  "_id": {
+    "$oid": "64c632eef61101b317188eec"
+  },
+  "name": "rahanana"
+}]
